@@ -51,6 +51,8 @@ Pressing Start Recording launches start_recording() from recorder.py using a bac
 Pressing Stop Recording stops the capture and prompts the user to save the file using a save dialog box.
 The screen capture is done using mss, and video encoding is handled by OpenCV's VideoWriter.
 
+---
+
 ## 📸 Output  
 
 Format: .avi (XVID codec)
@@ -58,8 +60,12 @@ Resolution: 1920x1080 (modifiable in recorder.py)
 Frame rate: 30 FPS
 Saved using user-defined file name and location
 
+---
+
 ## 👤 Author<br>
-Made by Sangeet
+Made by **Sangeet**
+
+---
 
 Install dependencies:
 ```bash 
