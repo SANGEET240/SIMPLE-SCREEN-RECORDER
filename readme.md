@@ -18,8 +18,6 @@ A lightweight screen recording application with a custom-designed GUI using **Tk
 ## 📁 Project Structure
 Screen-Recorder-Project/
 
-│
-
 ├── screen_gui.py # GUI code using Tkinter
 
 ├── recorder.py # Core recording logic (OpenCV + MSS)
