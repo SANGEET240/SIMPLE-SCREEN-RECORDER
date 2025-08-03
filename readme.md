@@ -55,7 +55,7 @@ The screen capture is done using mss, and video encoding is handled by OpenCV's 
 
 Format: .avi (XVID codec)
 Resolution: 1920x1080 (modifiable in recorder.py)
-Frame rate: 30 FPS
+Frame rate: 20 FPS
 Saved using user-defined file name and location
 
 ---
