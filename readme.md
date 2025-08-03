@@ -16,14 +16,15 @@ A lightweight screen recording application with a custom-designed GUI using **Tk
 ---
 
 ## 📁 Project Structure
-
-📂 Screen-Recorder-Project/
+Screen-Recorder-Project/
+│
 ├── screen_gui.py # GUI code using Tkinter
 ├── recorder.py # Core recording logic (OpenCV + MSS)
+│
 ├── start_record.png # Start button image
 ├── stop_record.png # Stop button image
 ├── bg.png # Background image for GUI
-├── title_logo.png # Window icon
+└── title_logo.png # Window icon
 
 ---
 
@@ -35,10 +36,10 @@ A lightweight screen recording application with a custom-designed GUI using **Tk
 - `Pillow` (for image handling in GUI)
 
 Install dependencies:
-```bash
+```bash 
 pip install opencv-python mss Pillow
 
-
+---
 🔧 How It Works
 The screen_gui.py file creates a fixed-size GUI window with styled buttons and background.
 Pressing Start Recording launches start_recording() from recorder.py using a background thread.
